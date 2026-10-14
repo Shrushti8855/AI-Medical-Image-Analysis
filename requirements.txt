@@ -1,0 +1,6 @@
+﻿tensorflow==2.21.0
+numpy==2.5.4
+matplotlib
+scikit-learn
+Pillow
+streamlit

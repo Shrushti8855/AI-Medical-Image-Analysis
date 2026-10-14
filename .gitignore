@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Dataset: do not upload the full dataset
+data/raw/
+
+# Model files: large generated artifacts
+models/*.keras
+models/*.h5
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
